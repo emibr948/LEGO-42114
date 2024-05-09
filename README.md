@@ -23,9 +23,9 @@ I tore out the lego motor, in the model, hoping to prevent the front tipping dow
 
 The mapping of the electrical motors to the Raspberry Pi Build HAT (2) is as follows
 ```angular2html
-[turn motor]  &#10132; [Port A]
-[drive motor] &#10132; [Port B]
-[gear motor]  &#10132; [Port C]
+[turn motor]  --> [Port A]
+[drive motor] --> [Port B]
+[gear motor]  --> [Port C]
 ```
 
 <img src='d3.jpg'>
