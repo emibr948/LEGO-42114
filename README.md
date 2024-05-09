@@ -19,6 +19,15 @@ You need to complete the lego model 42114 with the following items:
 
 ### Modifications to the Model
 
+I tore out the lego motor, in the model, hoping to prevent the front tipping down. It is unclear whether it actually got better. The image below gives a fairly clear picture of the changes to the model and construction of the electric cable (parts (6) and (7)).
+
+The mapping of the electrical motors to the Raspberry Pi Build HAT (2) is as follows
+```angular2html
+[turn motor]  &#10132; [Port A]
+[drive motor] &#10132; [Port B]
+[gear motor]  &#10132; [Port C]
+```
+
 <img src='d3.jpg'>
 
 ### Installation
@@ -67,16 +76,9 @@ python /home/$USER/dumper/controller.py &
 
 ## Final Result
 
+I am quite happy with the end result and it became easier to drive, even for me with big fingers. I am not an expert on Rasperry Pi OS. So why you need to execute the python script twice in the `.profile` file I don't know. There are of course opportunities for improvement. Something that can also be improved is the final appearance. Anyway, no serious problems have arisen for me so far. Powering the Raspberry Pi with the battery and activating the PS4 controller, everything starts up and you can start driving. See below for two examples.
 
 <img src='d1.gif'> <img src='d2.gif'>
-
-
-
-
-
-
-
-why two times?
 
 ## License
 Under the MIT License. See LICENSE.txt for more information.
